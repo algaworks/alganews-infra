@@ -46,6 +46,7 @@ services:
       ALGANEWS_STORAGE_DOWNLOAD_URL: "http://localhost:8080/files"
       ALGANEWS_STORAGE_TYPE: "local"
       ALGANEWS_AUTH_URL: "http://localhost:8081"
+      ALGANEWS_STORAGE_LOCAL_STORAGE_PATH: "/storage"
     volumes:
       - alganews-localstore-data:/storage
   alganews-auth:
